@@ -100,6 +100,22 @@ html {
     color: #333;
 }
 
+#content h1 {
+    margin: 1em 0;
+    
+    color: #77216F;
+    
+    font-size: 200%;
+}
+
+#content h2 {
+    margin: 1em 0;
+    
+    color: #77216F;
+    
+    font-size: 150%;
+}
+
 #footer {
     height: 80px;
     
