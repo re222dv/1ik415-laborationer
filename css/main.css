@@ -136,3 +136,10 @@ html {
     background-color: #EEE;
     color: #333;
 }
+
+#footer p {
+    padding-top: 50px;
+    padding-right: 30px;
+    
+    text-align: right;
+}
