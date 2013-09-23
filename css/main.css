@@ -51,6 +51,34 @@ html {
     width: 130px;
 }
 
+#navigation ul {
+    padding-left: 0;
+    
+    list-style: none;
+}
+
+#navigation ul li {
+    border: 4px solid #EEE;
+    border-left-width: 0;
+}
+
+#navigation ul li a {
+    display: block;
+    padding: 3px;
+    padding-bottom: 4px;
+    
+    background: #77216F;
+    color: #FFF;
+    
+    font-weight: bold;
+    text-decoration:none;
+}
+
+#navigation ul li a:hover, #navigation ul li a.active {
+    
+    background: #AD30A0;
+}
+
 #content {
     margin-top: 20px;
     margin-left: 180px;
