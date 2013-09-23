@@ -4,14 +4,43 @@ div {
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    
+    background: #F5F5F5;
+}
+
 #container {
     margin: 0 auto;
     
     width: 960px;
+    
+    background: #F8F8F8;
 }
 
 #header {
     height: 150px;
+    
+    background: #77216F;
+    background: linear-gradient(-70deg,
+                                #2C001E 0%,
+                                #5E2750 13%,
+                                #77216F 53%,
+                                #D6CDC5 93%,
+                                #F5F5F5 100%);
+    background: -webkit-radial-gradient(circle at right bottom,
+                                        #2C001E 0%,
+                                        #5E2750 13%,
+                                        #77216F 53%,
+                                        #D6CDC5 93%,
+                                        #F5F5F5 100%);
+    background: radial-gradient(circle at right bottom,
+                                #2C001E 0%,
+                                #5E2750 13%,
+                                #77216F 53%,
+                                #D6CDC5 93%,
+                                #F5F5F5 100%);
+    color: #FFF;
 }
 
 #navigation {
@@ -32,8 +61,13 @@ div {
     min-height: 300px;
     
     overflow: hidden;
+    background: #FAFAFA;
+    color: #333;
 }
 
 #footer {
     height: 80px;
+    
+    background-color: #EEE;
+    color: #333;
 }
