@@ -108,6 +108,10 @@ html {
     font-size: 200%;
 }
 
+#content h1:first-child {
+    margin-top: 0;
+}
+
 #content h2 {
     margin: 1em 0;
     
