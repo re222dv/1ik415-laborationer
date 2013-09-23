@@ -9,6 +9,16 @@ div {
     box-sizing: border-box;
 }
 
+a {
+    color: #AD30A0;
+    
+    font-weight: bold;
+}
+
+a:visited {
+    color: #77216F;
+}
+
 html {
     height: 100%;
     
