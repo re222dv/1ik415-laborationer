@@ -40,6 +40,19 @@ p + p {
     margin-top: 1em;
 }
 
+th, td {
+    padding: 2px;
+    padding-bottom: 3px;
+    
+    border: 1px solid #333;
+}
+
+th {
+    color: #77216F;
+    
+    font-weight: bold;
+}
+
 #container {
     margin: 0 auto;
     
