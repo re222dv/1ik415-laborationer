@@ -1,3 +1,12 @@
+/**
+ * Colors:
+ *    Dark purple: #77216F
+ *    Bright purple: #AD30A0
+ *    Text color: #333
+ *    Text background: #FAFAFA
+ *    Dark background: #EEE
+ */
+
 @font-face {
     font-family: Ubuntu;
     src: url('fonts/Ubuntu-R.ttf');
@@ -114,7 +123,6 @@ html {
 }
 
 #navigation ul li a:hover, #navigation ul li a.active {
-    
     background: #AD30A0;
 }
 
@@ -130,6 +138,8 @@ html {
     overflow: hidden;
     background: #FAFAFA;
     color: #333;
+    
+    line-height: 110%;
 }
 
 #content h1 {
