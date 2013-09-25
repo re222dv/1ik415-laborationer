@@ -36,6 +36,10 @@ html {
     font-family: Ubuntu, Arial, sans-serif;
 }
 
+p + p {
+    margin-top: 1em;
+}
+
 #container {
     margin: 0 auto;
     
@@ -162,8 +166,30 @@ html {
     font-size: 150%;
 }
 
+#content img {
+    max-width: 600px;
+
+    border: 5px solid white;
+}
+
 .blogg_post {
     margin-bottom: 20px;
+}
+
+.preamble {
+    font-weight: bold;
+}
+
+#content .right, .left {
+    max-width: 300px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
 
 .post_footer {
@@ -172,6 +198,8 @@ html {
     
     background-color: #EEE;
     color: #333;
+
+    font-style: italic;
 }
 
 #footer {
