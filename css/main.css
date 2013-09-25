@@ -147,7 +147,7 @@ th {
     text-decoration:none;
 }
 
-#navigation ul li a:hover, #navigation ul li a.active {
+#navigation ul li a:hover, #navigation ul li a.active, #navigation ul li a:focus {
     background: #AD30A0;
 }
 
