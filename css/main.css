@@ -48,6 +48,10 @@ p + p {
     background: #F8F8F8;
 }
 
+/**
+ * Header rules
+ */
+
 #header {
     height: 150px;
     
@@ -95,6 +99,10 @@ p + p {
     font-size: 20px;
 }
 
+/**
+ * Menu rules
+ */
+
 #navigation {
     float: left;
     
@@ -129,6 +137,10 @@ p + p {
 #navigation ul li a:hover, #navigation ul li a.active {
     background: #AD30A0;
 }
+
+/**
+ * Content rules
+ */
 
 #content {
     margin-top: 20px;
@@ -172,7 +184,11 @@ p + p {
     border: 5px solid white;
 }
 
-.blogg_post {
+/**
+ * Blog post rules
+ */
+
+.blog_post {
     margin-bottom: 20px;
 }
 
@@ -201,6 +217,10 @@ p + p {
 
     font-style: italic;
 }
+
+/**
+ * Footer rules
+ */
 
 #footer {
     height: 80px;
