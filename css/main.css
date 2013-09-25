@@ -39,22 +39,22 @@ html {
     height: 150px;
     
     background: #77216F;
-    background-image: url("../pics/res.png");
-    background-image: url("../pics/res.png"),
+    background-image: url("pics/res.png");
+    background-image: url("pics/res.png"),
                       linear-gradient(-70deg,
                                       #2C001E 0%,
                                       #5E2750 13%,
                                       #77216F 53%,
                                       #D6CDC5 93%,
                                       #F5F5F5 100%);
-    background-image: url("../pics/res.png"),
+    background-image: url("pics/res.png"),
                       -webkit-radial-gradient(circle at right bottom,
                                               #2C001E 0%,
                                               #5E2750 13%,
                                               #77216F 53%,
                                               #D6CDC5 93%,
                                               #F5F5F5 100%);
-    background-image: url("../pics/res.png"),
+    background-image: url("pics/res.png"),
                       radial-gradient(circle at right bottom,
                                       #2C001E 0%,
                                       #5E2750 13%,
