@@ -167,6 +167,10 @@ html {
 #footer {
     height: 80px;
     
+    background-image: url("pics/agpl.png");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+
     background-color: #EEE;
     color: #333;
 }
