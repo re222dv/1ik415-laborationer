@@ -1,0 +1,22 @@
+#header, #navigation {
+    display: none;
+}
+
+#content {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*
+ Add url after links, found at
+ http://css-tricks.com/snippets/css/print-url-after-links/
+ */
+a:after{
+    content:" (" attr(href) ") ";
+    font-size:0.8em;
+    font-weight:normal;
+}
+
+table th {
+    color: #333;
+}
