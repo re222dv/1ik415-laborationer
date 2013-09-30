@@ -234,6 +234,34 @@ th {
 }
 
 /**
+ * Form rules
+ */
+ 
+fieldset {
+    margin-bottom: 10px;
+}
+
+legend {
+    margin-bottom: 5px;
+    
+    color: #77216F;
+    
+    font-weight: bold;
+}
+ 
+fieldset label {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+fieldset input[type=radio] {
+    float: left;
+    margin-left: 10px;
+    margin-right: -5px;
+}
+
+/**
  * Footer rules
  */
 
