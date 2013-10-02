@@ -121,7 +121,7 @@ th {
     
     margin-top: 20px;
     
-    width: 130px;
+    width: 140px;
 }
 
 #navigation ul {
@@ -138,9 +138,11 @@ th {
 #navigation ul li a {
     display: block;
     padding: 3px;
+    padding-left: 28px;
     padding-bottom: 4px;
     
-    background: #77216F;
+    background: url(pics/sprite.png) no-repeat;
+    background-color: #77216F;
     color: #FFF;
     
     font-weight: bold;
@@ -148,7 +150,23 @@ th {
 }
 
 #navigation ul li a:hover, #navigation ul li a.active, #navigation ul li a:focus {
-    background: #AD30A0;
+    background-color: #AD30A0;
+}
+
+#navigation ul li a#nav_start {
+    background-position: 0 -96px;
+}
+
+#navigation ul li a#nav_laborations {
+    background-position: 0 -48px;
+}
+
+#navigation ul li a#nav_presentation {
+    background-position: 0 0px;
+}
+
+#navigation ul li a#nav_contact {
+    background-position: 0 -144px;
 }
 
 /**
