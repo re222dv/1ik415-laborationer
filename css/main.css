@@ -267,7 +267,27 @@ fieldset label {
     margin-left: 10px;
     margin-right: 5px;
 }
+ 
+fieldset:first-of-type label {
+    float: left;
+    margin-bottom: 5px;
+    
+    width: 100px;
+}
+ 
+fieldset:first-of-type input, fieldset:first-of-type select {
+    margin-bottom: 5px;
+}
 
+input[type=text] {
+    width: 200px;
+}
+
+textarea {
+    width: 200px;
+    max-width: 500px;
+    min-height: 2em;
+}
 
 fieldset input[type=radio] {
     float: left;
