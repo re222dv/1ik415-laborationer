@@ -191,6 +191,8 @@ th {
     color: #77216F;
     
     font-size: 200%;
+    
+    line-height: 110%;
 }
 
 #content h1:first-child {
@@ -334,7 +336,7 @@ fieldset input[type=radio] {
     }
 }
  
-@media screen and (max-width: 747px) {
+@media screen and (min-width: 481px) and (max-width: 747px) {
     #navigation {
         width: 115px;
     }
@@ -345,10 +347,50 @@ fieldset input[type=radio] {
     }
 }
 
-@media screen and (max-width: 614px) {
+@media screen and (min-width: 481px) and (max-width: 614px) {
     #content {
         width: -webkit-calc(100% - 115px);
         width: calc(100% - 115px);
         margin-left: 115px;
+    }
+}
+
+/**
+ * Small layout, adopted for phone size and touch screen
+ */
+
+@media screen and (max-width: 481px) {
+    #navigation {
+        margin: 20px 10%;
+        width: 80%;
+    }
+    
+    #navigation ul li {
+        border-left-width: 4px;
+    }
+    
+    #navigation ul li a {
+        display: block;
+        padding: 10px;
+        padding-left: 28px;
+    }
+    
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #content img, #content video {
+        margin: 10px 2.5%;
+        width: 95%;
+    }
+    
+    #content ul li+li a {
+        display: block;
+        margin-top: 10px;
+    }
+
+    #footer p {
+        padding-top: 7px;
     }
 }
