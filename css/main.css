@@ -444,9 +444,10 @@ fieldset input[type=radio] {
         width: 95%;
     }
     
-    #content ul li+li a {
-        display: block;
+    #content ul li a {
+        display: inline-block;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     #footer p {
