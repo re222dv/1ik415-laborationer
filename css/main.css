@@ -437,6 +437,8 @@ fieldset input[type=radio] {
     
     #content img, #content video {
         margin: 10px 2.5%;
+        margin: 10px -webkit-calc(2.5% - 5px);
+        margin: 10px calc(2.5% - 5px);
         width: 95%;
     }
     
