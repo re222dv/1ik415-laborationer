@@ -454,6 +454,42 @@ fieldset input[type=radio] {
         clear: both;
         max-width: 600px;
     }
+ 
+    fieldset:first-of-type label {
+        margin-top: 10px;
+        
+        font-weight: bold;
+    }
+
+    input[type=text], select, textarea {
+        margin: 0 2.5%;
+        width: 95%;
+    }
+
+    textarea {
+        min-height: 4em;
+    }
+    
+    fieldset:last-of-type legend {
+        margin-bottom: 15px;
+    }
+    
+    fieldset:last-of-type br {
+        display: block;
+        
+        margin-top: 15px;
+        
+        content: ""; /* Workaround for Chrome for Andorid to display as block */
+    }
+    
+    fieldset input[type=radio] {
+        margin-right: 0;
+    }
+    
+    input[type=submit] {
+        margin-top: 15px;
+    }
+
 
     #footer p {
         padding-top: 7px;
