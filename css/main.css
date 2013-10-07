@@ -411,7 +411,23 @@ fieldset input[type=radio] {
     #navigation ul li a {
         display: block;
         padding: 10px;
-        padding-left: 28px;
+        padding-left: 35px;
+    }
+
+    #navigation ul li a#nav_start {
+        background-position: 5px -91px;
+    }
+    
+    #navigation ul li a#nav_laborations {
+        background-position: 5px -42px;
+    }
+    
+    #navigation ul li a#nav_presentation {
+        background-position: 5px 5px;
+    }
+    
+    #navigation ul li a#nav_contact {
+        background-position: 5px -139px;
     }
     
     #content {
