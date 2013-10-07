@@ -205,6 +205,8 @@ th {
     color: #77216F;
     
     font-size: 150%;
+    
+    line-height: 110%;
 }
 
 #content img, #content video {
