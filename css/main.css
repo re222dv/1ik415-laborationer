@@ -450,6 +450,11 @@ fieldset input[type=radio] {
         margin-bottom: 10px;
     }
 
+    #content .right, .left {
+        clear: both;
+        max-width: 600px;
+    }
+
     #footer p {
         padding-top: 7px;
     }
