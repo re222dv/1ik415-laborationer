@@ -84,7 +84,7 @@ th {
                                               #77216F 53%,
                                               #D6CDC5 93%,
                                               #F5F5F5 100%);
-    background-image: url("pics/res.png"),
+    background-image: url("pics/res150.png"),
                       radial-gradient(circle at right bottom,
                                       #2C001E 0%,
                                       #5E2750 13%,
@@ -92,7 +92,7 @@ th {
                                       #D6CDC5 93%,
                                       #F5F5F5 100%);
     background-repeat: no-repeat;
-    background-position: 10px 10px, 0 0;
+    background-position: 15px 0, 0 0;
     
     color: #FFF;
     text-align: right;
