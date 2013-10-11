@@ -109,7 +109,7 @@ header h1 {
     font-size: 40px;
 }
 
-header h2 {
+header p {
     padding-top: 10px;
     padding-right: 50px;
     
@@ -397,7 +397,7 @@ footer p {
         padding-right: 0;
     }
     
-    header h2 {
+    header p {
         padding-right: 0;
     }
 
