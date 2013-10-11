@@ -336,7 +336,7 @@ footer p {
         width: 100%;
     }
     
-    #content {
+    main {
         width: 81.25%;
         margin-left: 18.75%;
     }
@@ -354,7 +354,7 @@ footer p {
 }
 
 @media screen and (min-width: 481px) and (max-width: 614px) {
-    #content {
+    main {
         width: -webkit-calc(100% - 115px);
         width: calc(100% - 115px);
         margin-left: 115px;
@@ -366,7 +366,7 @@ footer p {
  */
 
 @media screen and (max-width: 481px) {
-    #header {
+    header {
         height: 150px;
         
         background: #77216F;
@@ -392,12 +392,12 @@ footer p {
         text-align: center;
     }
     
-    #header h1 {
+    header h1 {
         padding-top: 30px;
         padding-right: 0;
     }
     
-    #header h2 {
+    header h2 {
         padding-right: 0;
     }
 
@@ -436,25 +436,25 @@ footer p {
         background-position: 5px -139px;
     }
     
-    #content {
+    main {
         width: 100%;
         margin: 0;
     }
     
-    #content img, #content video {
+    main img, main video {
         margin: 10px 2.5%;
         margin: 10px -webkit-calc(2.5% - 5px);
         margin: 10px calc(2.5% - 5px);
         width: 95%;
     }
     
-    #content ul li a {
+    main ul li a {
         display: inline-block;
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
-    #content .right, .left {
+    main .right, .left {
         clear: both;
         max-width: 600px;
     }
@@ -494,8 +494,7 @@ footer p {
         margin-top: 15px;
     }
 
-
-    #footer p {
+    footer p {
         padding-top: 7px;
     }
 }
