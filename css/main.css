@@ -57,6 +57,15 @@ th {
     font-weight: bold;
 }
 
+table caption {
+    display: none;
+}
+
+.table_container {
+    max-width: 100%;
+    overflow: auto;
+}
+
 #container {
     margin: 0 auto;
     
