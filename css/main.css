@@ -222,6 +222,14 @@ main h2 {
     line-height: 110%;
 }
 
+main h3 {
+    margin: 5px 0;
+    
+    color: #77216F;
+    
+    font-weight: bold;
+}
+
 main img, main video {
     margin: 5px;
     
