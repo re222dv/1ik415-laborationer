@@ -32,6 +32,10 @@ a:visited {
     color: #77216F;
 }
 
+h4 {
+    display: inline;
+}
+
 html {
     height: 100%;
     
@@ -135,6 +139,10 @@ header p {
     margin-top: 20px;
     
     width: 140px;
+}
+
+#navigation h1 {
+    display: none;
 }
 
 #navigation ul {
