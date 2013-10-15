@@ -274,6 +274,29 @@ main .right, .left {
 }
 
 /**
+ * Comments rules
+ */
+#comments article {
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    
+    background-color: #EEE;
+}
+
+#comments .fn {
+    font-weight: bold;
+}
+
+#comments time {
+    font-style: italic;
+}
+
+#comments p {
+    padding: 10px;
+}
+
+/**
  * Form rules
  */
  
@@ -325,7 +348,7 @@ fieldset input[type=radio] {
  * Footer rules
  */
 
-footer {
+#footer {
     height: 80px;
     
     background-image: url("pics/agpl.png");
@@ -336,7 +359,7 @@ footer {
     color: #333;
 }
 
-footer p {
+#footer p {
     padding-top: 50px;
     padding-left: 150px;
     padding-right: 30px;
@@ -511,7 +534,7 @@ footer p {
         margin-top: 15px;
     }
 
-    footer p {
+    #footer p {
         padding-top: 7px;
     }
 }
