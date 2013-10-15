@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Laborationssidan, svg - Rasmus site</title>
+        <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="../css/main.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="../css/print.css" />
+        <link rel="icon" type="image/png" href="../css/pics/res32.png" />
+        <link rel="apple-touch-icon" href="../css/pics/res150.png" />
+        <script>
+            "'article aside footer header main nav section time'".replace(/\w+/g,function(n){document.createElement(n)})
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Rasmus Enemans site</h1>
+                <p>Välkommen hit!</p>
+            </header>
+            
+            <nav id="navigation">
+                <ul>
+                    <li><a href="../index.html" id="nav_start">Start</a></li>
+                    <li><a href="../pages/laborations.html" id="nav_laborations">Laborationer</a></li>
+                    <li><a href="../pages/presentation.html" id="nav_presentation">Presentation</a></li>
+                    <li><a href="../pages/contact.html" id="nav_contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <article class="blog_post">
+                    <h2 id="p2">Laborationssidan, svg</h2>
+                    <p>En SVG bild som skapades till uppgiften 1.6</p>
+                    <img src="../pics/vector.svg" alt="simple vector image" />
+                    <footer class="post_footer">Skrivet av Rasmus, 2013-09-15</footer>
+                </article>
+                
+                <section id="comments">
+                    <h3>Kommentarer</h3>
+                    <article>
+                        <span class="fn">Nicklas</span> <time>2013-10-15</time>
+                        <p>Fin bild.</p>
+                    </article>
+                    <form method="post">
+                        <h3>Skriv en kommentar</h3>
+                        <label for="name">Namn</label>
+                        <input type="text" name="name" id="name" placeholder="Namn" />
+                        <br />
+                        <label for="message">Meddelande</label>
+                        <textarea name="message" id="message" placeholder="Meddelande"></textarea>
+                        <input type="submit" name="submit" value="Posta" />
+                    </form>
+                </section>
+            </main>
+            
+            <footer id="footer">
+                <p>Ansvarig för materialet på denna sida är Rasmus Eneman</p>
+            </footer>
+        </div>
+    </body>
+</html>

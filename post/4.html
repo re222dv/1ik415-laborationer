@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rasmus site</title>
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/main.css" />
-        <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
-        <link rel="icon" type="image/png" href="css/pics/res32.png" />
-        <link rel="apple-touch-icon" href="css/pics/res150.png" />
+        <title>Längre bloggpost - Rasmus site</title>
+        <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="../css/main.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="../css/print.css" />
+        <link rel="icon" type="image/png" href="../css/pics/res32.png" />
+        <link rel="apple-touch-icon" href="../css/pics/res150.png" />
         <script>
             "'article aside footer header main nav section time'".replace(/\w+/g,function(n){document.createElement(n)})
         </script>
@@ -22,19 +22,17 @@
             
             <nav id="navigation">
                 <ul>
-                    <li><a href="#" id="nav_start" class="active">Start</a></li>
-                    <li><a href="pages/laborations.html" id="nav_laborations">Laborationer</a></li>
-                    <li><a href="pages/presentation.html" id="nav_presentation">Presentation</a></li>
-                    <li><a href="pages/contact.html" id="nav_contact">Kontakt</a></li>
+                    <li><a href="../index.html" id="nav_start">Start</a></li>
+                    <li><a href="../pages/laborations.html" id="nav_laborations">Laborationer</a></li>
+                    <li><a href="../pages/presentation.html" id="nav_presentation">Presentation</a></li>
+                    <li><a href="../pages/contact.html" id="nav_contact">Kontakt</a></li>
                 </ul>
             </nav>
             
             <main>
-                <h1>Kursblogg</h1>
                 <article class="blog_post">
-                    <a href="post/4.html"><h2 id="p4">Längre bloggpost</h2></a>
-                    <a class="comment" href="post/4.html#comments">4 kommentarer</a>
-                    <img src="pics/cactus.jpg" alt="Nätfoto på en kaktusblomma" class="right" />
+                    <h2 id="p1">Längre bloggpost</h2>
+                    <img src="../pics/cactus.jpg" alt="Nätfoto på en kaktusblomma" class="right" />
                     <p class="preamble">En lite längre bloggpost med flera stycken, ingress och bild.</p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare metus ut libero porttitor,
@@ -66,28 +64,39 @@
                     </p>
                     <footer class="post_footer">Skrivet av Rasmus, 2013-09-15</footer>
                 </article>
-                <article class="blog_post">
-                    <a href="post/3.html"><h2 id="p3">Video-taggen</h2></a>
-                    <a class="comment" href="post/3.html#comments">2 kommentarer</a>
-                    <p>Testar att envända video-taggen genom att visa en trailer från <a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a></p>
-                    <video controls="controls">
-                        <source src="http://re222dv.github.io/1ik415-laborationer/videos/bbb.ogg" type="video/ogg">
-                    </video>
-                    <footer class="post_footer">Skrivet av Rasmus, 2013-09-15</footer>
-                </article>
-                <article class="blog_post">
-                    <a href="post/2.html"><h2 id="p2">Laborationssidan, svg</h2></a>
-                    <a class="comment" href="post/2.html#comments">1 kommentar</a>
-                    <p>En SVG bild som skapades till uppgiften 1.6</p>
-                    <img src="pics/vector.svg" alt="simple vector image" />
-                    <footer class="post_footer">Skrivet av Rasmus, 2013-09-15</footer>
-                </article>
-                <article class="blog_post">
-                    <a href="post/1.html"><h2 id="p1">Hejsan världen!</h2></a>
-                    <a class="comment" href="post/1.html#comments">2 kommentarer</a>
-                    <p>På denna blogg kommer jag att skriva några rader om de laborationer jag gör och också publicera material som jag producerar.</p>
-                    <footer class="post_footer">Skrivet av Rasmus, 2013-09-09</footer>
-                </article>
+                
+                <section id="comments">
+                    <h3>Kommentarer</h3>
+                    <article>
+                        <span class="fn">Lorem</span> <time>2013-10-15</time>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </article>
+                    <article>
+                        <span class="fn">Lucas</span> <time>2013-10-15</time>
+                        <p>Liberatio</p>
+                    </article>
+                    <article>
+                        <span class="fn">Aliquam</span> <time>2013-10-15</time>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum vitae lectus blandit, sollicitudin lectus ut, ultricies elit.
+    Aliquam pulvinar sapien ut dolor aliquam, nec venenatis lectus hendrerit.
+                        </p>
+                    </article>
+                    <article>
+                        <span class="fn">Lorem</span> <time>2013-10-15</time>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique dapibus arcu, a lobortis lacus dictum vitae. Suspendisse dapibus, dolor eu dictum consequat, neque leo elementum quam, sit amet euismod nibh mi at erat. Nunc ligula nunc, adipiscing facilisis diam iaculis, sodales porttitor purus. Mauris viverra augue vel purus imperdiet, a blandit erat vulputate. Fusce eu quam et neque scelerisque commodo ut eget ante. Morbi laoreet leo risus, suscipit commodo purus ornare a. Maecenas sagittis, metus nec aliquam dignissim, enim dolor aliquam velit, vitae cursus massa erat in ipsum. Cras placerat tempus rutrum. Fusce vitae risus id ante pellentesque vehicula.</p>
+                        <p>Proin eget malesuada ante, at auctor mauris. Suspendisse est lectus, viverra semper porttitor in, dictum et odio. Nullam sagittis congue placerat. Morbi id imperdiet quam. Cras adipiscing placerat nisl, ac sodales orci sodales eu. Vestibulum ultrices metus quis sapien dignissim, ultricies porttitor lectus scelerisque. Donec volutpat, felis non varius lacinia, eros purus consectetur augue, eget adipiscing est orci a est.</p>
+                    </article>
+                    <form method="post">
+                        <h3>Skriv en kommentar</h3>
+                        <label for="name">Namn</label>
+                        <input type="text" name="name" id="name" placeholder="Namn" />
+                        <br />
+                        <label for="message">Meddelande</label>
+                        <textarea name="message" id="message" placeholder="Meddelande"></textarea>
+                        <input type="submit" name="submit" value="Posta" />
+                    </form>
+                </section>
             </main>
             
             <footer id="footer">
@@ -95,19 +104,4 @@
             </footer>
         </div>
     </body>
-    <!-- Uppgift 1.4
-    
-    1.4.1
-        /html/pages/bottom.html
-    1.4.2
-        pages/top.html
-    1.4.3
-        ../../index.html
-    1.4.4
-        /index.html
-    1.4.5
-        ./bottom.html eller bara bottom.html
-    1.4.6
-        html/pages/top.html
-    -->
 </html>

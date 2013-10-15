@@ -159,7 +159,7 @@ header p {
     color: #FFF;
     
     font-weight: bold;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #navigation ul li a:hover, #navigation ul li a.active, #navigation ul li a:focus {
@@ -247,6 +247,19 @@ main img, main video {
     margin-bottom: 20px;
 }
 
+.blog_post>a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.blog_post .comment {
+    float: right;
+    
+    position: relative;
+    top: -2.5em;
+    right: 20px;
+}
+
 .preamble {
     font-weight: bold;
 }
@@ -276,7 +289,7 @@ main .right, .left {
 /**
  * Comments rules
  */
-#comments article {
+#comments article, #comments form {
     margin: 10px;
     padding: 5px;
     padding-left: 10px;
@@ -293,7 +306,57 @@ main .right, .left {
 }
 
 #comments p {
+    margin-top: 0;
     padding: 10px;
+}
+
+#comments form h3 {
+    padding: 5px;
+}
+
+#comments form label {
+    display: none;
+}
+
+#comments form input[type=text] {
+    margin: 5px;
+    padding: 5px;
+    
+    background-color: #F8F8F8;
+    border: none;
+}
+
+#comments form textarea {
+    margin: 5px;
+    padding: 5px;
+    
+    width: 702px;
+    width: -webkit-calc(100% - 25px);
+    width: calc(100% - 25px);
+    max-width: 100%;
+
+    height: 5em;
+    
+    background-color: #F8F8F8;
+    border: none;
+    
+    resize: vertical;
+}
+
+#comments form input[type=submit] {
+    margin: 5px;
+    padding: 5px;
+    
+    color: #FFF;
+    background-color: #77216F;
+    border: 5px solid #F8F8F8;
+    
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#comments form input[type=submit]:hover, #comments form input[type=submit]:focus {
+    background-color: #AD30A0;
 }
 
 /**
@@ -497,6 +560,18 @@ fieldset input[type=radio] {
     main .right, .left {
         clear: both;
         max-width: 600px;
+    }
+
+    .blog_post .comment {
+        display: block;
+        float: none;
+        position: inherit;
+        margin-bottom: 10px;
+    }
+    
+    #comments form input[type=text] {
+        width: -webkit-calc(100% - 25px);
+        width: calc(100% - 25px);
     }
  
     fieldset:first-of-type label {
