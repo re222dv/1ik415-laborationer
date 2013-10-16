@@ -27,11 +27,10 @@ html {
     text-decoration: none;
     text-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
     
-    -webkit-box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2);
     box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2); 
     
     transition: all 1.5s;
-    transform:  rotate(5deg);
+    transform: rotate(5deg);
 }
 
 #images a:before {
@@ -68,26 +67,26 @@ html {
     
     text-align: center;
     
-    transform:  rotate(-3deg) scale(1.05);
+    transform: rotate(-3deg) scale(1.05);
 }
 
 #images a:nth-child(3n - 2) {
     z-index: 3;
-    transform:  rotate(10deg) scale(1.1);
+    transform: rotate(10deg) scale(1.1);
 }
 
 #images a:nth-child(3n) {
     z-index: 1;
-    transform:  rotate(-10deg) scale(1.2);
+    transform: rotate(-10deg) scale(1.2);
 }
 
 #images a:nth-child(4n - 3):after {
-    transform:  rotate(5deg) scale(1.1);
+    transform: rotate(5deg) scale(1.1);
 }
 
 #images a:nth-child(3n):after {
     color: #2e2e73;
-    transform:  rotate(2deg) scale(1.25);
+    transform: rotate(2deg) scale(1.25);
 }
 
 #images a:nth-child(1):after {
@@ -100,18 +99,22 @@ html {
 
 #images a:hover, #images a:focus {
     z-index: 10;
-    transform:  scale(1.7);
+    transform: scale(1.7);
 }
 
 @keyframes write {
-    from {width: 0;}
-    to {width: 250px;}
+    from {
+        width: 0;
+    }
+    to {
+        width: 250px;
+    }
 }
 
 #images a:hover:before {
     opacity: 0.8;
     
-    animation: write 1s;
+    animation: write 2s;
     animation-delay: 1s;
     transition: all 1s;
     transition-delay: 1s;
