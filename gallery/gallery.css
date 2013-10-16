@@ -27,7 +27,7 @@ html {
     text-decoration: none;
     text-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
     
-    box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2);
     
     transition: all 1.5s;
     transform: rotate(5deg);
@@ -173,7 +173,7 @@ html {
     }
 }
 
-#images a:hover:before {
+#images a:hover:before, #images a:focus:before {
     -webkit-animation: write 2s;
     -webkit-animation-delay: 1s;
     -webkit-transition: all 1s;
