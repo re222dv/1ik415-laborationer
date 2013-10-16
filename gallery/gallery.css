@@ -1,10 +1,20 @@
 html {
     padding-top: 100px;
     padding-left: 100px;
+    
+    overflow: hidden;
 
     font-family: 'The Girl Next Door';
 
     background-color: #888;
+}
+
+@keyframes throw-in {
+    from {
+        transform: translate(1200px, 800px) rotate(180deg) rotateY(90deg);
+    }
+    to {
+    }
 }
 
 #images a {
@@ -15,7 +25,7 @@ html {
     margin-right: 30px;
     margin-bottom: 25px;
     padding: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     
     width: 250px;
     min-height: 250px;
@@ -30,6 +40,7 @@ html {
     
     box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2);
     
+    animation: throw-in 2s;
     transition: all 1.5s;
     transform: rotate(5deg);
 }
@@ -137,12 +148,22 @@ p {
     text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     transform: rotate(-3deg);
 }
+
 /**
  * Chrome support
  * Firefox does fine without any bendor prefixes so let us not clutter the code
  */
 
+@-webkit-keyframes throw-in {
+    from {
+        -webkit-transform: translate(1200px, 800px) rotate(180deg) rotateY(90deg);
+    }
+    to {
+    }
+}
+
 #images a {
+    -webkit-animation: throw-in 2s;
     -webkit-transition: all 1.5s;
     -webkit-transform: rotate(5deg);
 }
@@ -190,4 +211,8 @@ p {
     -webkit-animation-delay: 1s;
     -webkit-transition: all 1s;
     -webkit-transition-delay: 1s;
+}
+
+p {
+    -webkit-transform: rotate(-3deg);
 }
