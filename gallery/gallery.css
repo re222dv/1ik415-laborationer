@@ -68,7 +68,7 @@ html {
     
     text-align: center;
     
-    transform:  rotate(-2deg);
+    transform:  rotate(-3deg) scale(1.05);
 }
 
 #images a:nth-child(3n - 2) {
@@ -80,12 +80,12 @@ html {
 }
 
 #images a:nth-child(4n - 3):after {
-    transform:  rotate(3deg) scale(1.1);
+    transform:  rotate(5deg) scale(1.1);
 }
 
 #images a:nth-child(3n):after {
     color: #2e2e73;
-    transform:  rotate(-1deg) scale(1.25);
+    transform:  rotate(2deg) scale(1.25);
 }
 
 #images a:nth-child(1):after {
