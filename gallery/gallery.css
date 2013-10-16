@@ -1,5 +1,6 @@
 html {
-    padding: 80px;
+    padding-top: 100px;
+    padding-left: 100px;
     
     background-color: #888;
 }
@@ -8,20 +9,19 @@ html {
     display: block;
     float: left;
     
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-bottom: 25px;
     padding: 10px;
-    padding-bottom: 0;
     
     width: 250px;
-    min-height: 276px;
+    min-height: 250px;
     z-index: 1;
     
     color: #242459;
     background-color: white;
     
     font-family: 'The Girl Next Door';
-    font-size: 1.8em;
+    font-size: 2em;
     text-decoration: none;
     text-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
     
@@ -35,7 +35,7 @@ html {
     content: attr(title);
     
     display: block;
-    margin-top: -10px;
+    margin-top: -5px;
     padding: 0;
     
     width: 250px;
@@ -45,15 +45,15 @@ html {
     transform:  rotate(-2deg);
 }
 
-#images a:nth-child(5n - 4) {
-    transform:  rotate(10deg);
+#images a:nth-child(3n - 2) {
+    transform:  rotate(10deg) scale(1.1);
 }
 
 #images a:nth-child(3n) {
-    transform:  rotate(-10deg);
+    transform:  rotate(-10deg) scale(1.2);
 }
 
-#images a:nth-child(5n - 4):after {
+#images a:nth-child(4n - 3):after {
     transform:  rotate(3deg) scale(1.1);
 }
 
@@ -62,9 +62,17 @@ html {
     transform:  rotate(-1deg) scale(1.25);
 }
 
+#images a:nth-child(1):after {
+    font-size: 0.9em;
+}
+
+#images a:nth-child(4):after {
+    font-size: 0.9em;
+}
+
 #images a:hover, #images a:focus {
     z-index: 10;
-    transform:  scale(1.5);
+    transform:  scale(1.7);
 }
 
 #images img {
