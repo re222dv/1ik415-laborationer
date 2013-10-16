@@ -7,11 +7,13 @@ html {
 
 #images a {
     display: block;
+    position: relative;
     float: left;
     
     margin-right: 30px;
     margin-bottom: 25px;
     padding: 10px;
+    padding-bottom: 20px;
     
     width: 250px;
     min-height: 250px;
@@ -30,6 +32,29 @@ html {
     
     transition: all 1.5s;
     transform:  rotate(5deg);
+}
+
+#images a:before {
+    content: "By " attr(data-by);
+    
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    margin-bottom: -20px;
+    padding: 0;
+    overflow: hidden;
+    
+    width: 250px;
+    height: 20px;
+    
+    opacity: 0;
+    
+    font-size: 0.5em;
+    text-align: left;
+    word-break: break-all;
+    
+    transition: opacity 1s;
+    transition-delay: 0s;
 }
 
 #images a:after {
@@ -74,6 +99,20 @@ html {
 #images a:hover, #images a:focus {
     z-index: 10;
     transform:  scale(1.7);
+}
+
+@keyframes write {
+    from {width: 0;}
+    to {width: 250px;}
+}
+
+#images a:hover:before {
+    opacity: 0.8;
+    
+    animation: write 1s;
+    animation-delay: 1s;
+    transition: all 1s;
+    transition-delay: 1s;
 }
 
 #images img {
