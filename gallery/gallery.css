@@ -1,0 +1,73 @@
+html {
+    padding: 80px;
+    
+    background-color: #888;
+}
+
+#images a {
+    display: block;
+    float: left;
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 0;
+    
+    width: 250px;
+    min-height: 276px;
+    z-index: 1;
+    
+    color: #242459;
+    background-color: white;
+    
+    font-family: 'The Girl Next Door';
+    font-size: 1.8em;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    
+    -webkit-box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2); 
+    
+    transform:  rotate(5deg);
+}
+
+#images a:after {
+    content: attr(title);
+    
+    display: block;
+    margin-top: -10px;
+    padding: 0;
+    
+    width: 250px;
+    
+    text-align: center;
+    
+    transform:  rotate(-2deg);
+}
+
+#images a:nth-child(5n - 4) {
+    transform:  rotate(10deg);
+}
+
+#images a:nth-child(3n) {
+    transform:  rotate(-10deg);
+}
+
+#images a:nth-child(5n - 4):after {
+    transform:  rotate(3deg) scale(1.1);
+}
+
+#images a:nth-child(3n):after {
+    color: #2e2e73;
+    transform:  rotate(-1deg) scale(1.25);
+}
+
+#images a:hover, #images a:focus {
+    z-index: 10;
+    transform:  scale(1.5);
+}
+
+#images img {
+    margin: 0;
+    width: 100%;
+}
