@@ -7,6 +7,8 @@ html {
     font-family: 'The Girl Next Door';
 
     background-color: #888;
+    
+    counter-reset: delay;
 }
 
 @keyframes throw-in {
@@ -118,6 +120,9 @@ html {
     from {
         width: 0;
     }
+    50% {
+        width: 100px;
+    }
     to {
         width: 250px;
     }
@@ -126,7 +131,7 @@ html {
 #images a:hover:before {
     opacity: 0.8;
     
-    animation: write 2s;
+    animation: write 3s steps(50);
     animation-delay: 1s;
     transition: all 1s;
     transition-delay: 1s;
