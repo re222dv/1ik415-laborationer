@@ -124,3 +124,58 @@ html {
     margin: 0;
     width: 100%;
 }
+
+/**
+ * Chrome support
+ * Firefox does fine without any bendor prefixes so let us not clutter the code
+ */
+
+#images a {
+    -webkit-transition: all 1.5s;
+    -webkit-transform: rotate(5deg);
+}
+
+#images a:before {
+    -webkit-transition: opacity 1s;
+    -webkit-transition-delay: 0s;
+}
+
+#images a:after {
+    -webkit-transform: rotate(-3deg) scale(1.05);
+}
+
+#images a:nth-child(3n - 2) {
+    -webkit-transform: rotate(10deg) scale(1.1);
+}
+
+#images a:nth-child(3n) {
+    -webkit-transform: rotate(-10deg) scale(1.2);
+}
+
+#images a:nth-child(4n - 3):after {
+    -webkit-transform: rotate(5deg) scale(1.1);
+}
+
+#images a:nth-child(3n):after {
+    -webkit-transform: rotate(2deg) scale(1.25);
+}
+
+#images a:hover, #images a:focus {
+    -webkit-transform: scale(1.7);
+}
+
+@-webkit-keyframes write {
+    from {
+        width: 0;
+    }
+    to {
+        width: 250px;
+    }
+}
+
+#images a:hover:before {
+    -webkit-animation: write 2s;
+    -webkit-animation-delay: 1s;
+    -webkit-transition: all 1s;
+    -webkit-transition-delay: 1s;
+}
