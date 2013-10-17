@@ -38,9 +38,10 @@ html {
     
     font-size: 2em;
     text-decoration: none;
-    text-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
     
-    box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2),
+                -10px -10px 10px 10px rgba(0, 0, 0, 0.2);
     
     animation: throw-in 2s;
     transition: all 1.5s;
@@ -113,6 +114,10 @@ html {
 
 #images a:hover, #images a:focus {
     z-index: 10;
+    
+    box-shadow: 0 0 40px 40px rgba(0, 0, 0, 0.2),
+                -10px -10px 10px 20px rgba(0, 0, 0, 0.1);
+    
     transform: scale(1.7);
 }
 
@@ -205,6 +210,9 @@ p {
 @-webkit-keyframes write {
     from {
         width: 0;
+    }
+    50% {
+        width: 100px;
     }
     to {
         width: 250px;
